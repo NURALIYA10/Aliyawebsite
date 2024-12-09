@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>MyWebsite</title>
+    </head>
+    <style>
+        h1
+        {
+            font-style: oblique;
+        }
+
+        .popups
+        {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 10%;
+            gap: 20px;
+        }
+
+        .popup
+        {
+            background: white;
+            color: #0078ff;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            width: 30%;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .popup:hover
+        {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .popup h2 
+        {
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        .popup p 
+        {
+            margin-bottom: 20px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .popup a 
+        {
+            text-decoration: none;
+            color: #ffe600;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+    </style>
+    <body>
+        <h1 align="center">WELCOME TO NURA'S PERSONAL SPACE</h1>
+
+        <a href="websiteacademic.html" align="center" >Academic</a>
+        <a href="websitefamily.html" align="center">Family</a>
+
+        <!-- Popup Section -->
+    <section class="popups">
+        <div class="popup">
+            <h2>Biodata</h2>
+            <p>Learn more about who I am.</p>
+            <a href="websitebiodata.html">Read More</a>
+        </div>
+        <div class="popup">
+            <h2>Experience</h2>
+            <p>Discover my professional journey.</p>
+            <a href="websiteexperience.html">View Details</a>
+        </div>
+        <div class="popup">
+            <h2>Gallery</h2>
+            <p>See moments captured in time.</p>
+            <a href="websitegallery.html">Explore Gallery</a>
+        </div>
+    </section>
+    </body>
+</html>
